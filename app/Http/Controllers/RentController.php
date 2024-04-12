@@ -63,7 +63,7 @@ class RentController extends Controller
 
         $car = Car::findOrFail($rent->car_id);
 
-        $car->car_availability = 0;
+        $car->car_availability = 1;
         $car->save();
 
         return redirect("/rent/return")->with('success', "Car Returned!");
