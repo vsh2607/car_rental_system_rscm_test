@@ -8,4 +8,9 @@
 <pre>php artisan key:generate</pre>
 <p>5. Run Migration </p>
 <pre>php artisan migrate --seed</pre>
+<p>5. Login as Admin </p>
+<p>Admin Email</p>
+<pre>admin@gmail.com</pre>
+<p>Admin Passsword</p>
+<pre>admin</pre>
 
